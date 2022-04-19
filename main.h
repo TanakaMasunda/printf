@@ -4,7 +4,6 @@
 
 #include <stdarg.h>
 #include <stdio.h>
-#include <string.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
@@ -57,8 +56,8 @@ int print_string(va_list l, flags_t *f);
 int print_char(va_list l, flags_t *f);
 
 /* write_funcs */
-/* int _putchar(char c); */
-/* int _puts(char *str); */
+int _putchar(char c);
+int _puts(char *str);
 
 /* print_custom */
 int print_rot13(va_list l, flags_t *f);
