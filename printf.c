@@ -10,12 +10,12 @@
 
 int _printf(const char *format, ...)
 {
-	char x = x;
+	char x = 'x';
 	char *str = "hope";
 	{
 		printf("%c\n", x);
 		return (x);
-	}
+	} 
 
 	printf("%s\n", str);
 	printf("%\%\n");
