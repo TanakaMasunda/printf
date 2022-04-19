@@ -2,7 +2,7 @@
 #define MAIN_H
 
 #include <stdarg.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
