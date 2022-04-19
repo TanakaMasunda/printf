@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -12,7 +11,6 @@
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
  */
-
 typedef struct flags
 {
 	int plus;
