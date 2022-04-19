@@ -34,7 +34,6 @@ typedef struct printHandler
 } ph;
 
 /* print_nums */
-int _putchar(char);
 int _printf(const char *format, ...);
 int print_int(va_list l, flags_t *f);
 void print_number(int n);
