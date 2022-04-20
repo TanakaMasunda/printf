@@ -13,7 +13,7 @@ unsigned long int p = va_arg(l, unsigned long int);
 register int count = 0;
 (void)f;
 
-	if (!p)
+		if (!p)
 		return (_puts("(nil)"));
 		str = convert(p, 16, 1);
 		count += _puts("0x");
